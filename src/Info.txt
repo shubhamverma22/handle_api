@@ -1,0 +1,27 @@
+In this Project I've created a very basic Card which whenever we refresh it it loads up
+random information about Person their name,email,Phone No and even Photos.
+
+By this Project you're gonna understand how API's are tackle down , how read JSON files
+We're also understand how we can make a web request and GET some data from it
+
+API used:- https://randomuser.me
+
+For Handling the API we used package called axios, it supports Promises, it has asynchronous feature
+sp it can do all of his job asynchronously means jobs are handling in the background and your application can load in the Frontend
+which makes your application faster
+
+By axios we can handle any request like GET,POST, PUT or DELETE; axios.get(),axios.post() and so on
+
+
+Q. where you gonna store data?
+Ans In states
+
+Q. what you gonna set default value in useState?
+Ans. As we know all we know is comes up in a JSON fromat so the default datatype of this is Object.
+Object consist of variety of data. 
+
+
+In usual cases if i'm doing a Production Grid application i'll move forward only if i'm get Status:200
+
+
+*Note:- if in API's object we have multiple options than we ? to fetch them. see src line in MyCard.js file 

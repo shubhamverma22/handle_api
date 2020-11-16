@@ -1,0 +1,3 @@
+For Handling the API we using a package called Axios
+It support Promises
+The one of thing which I loved about axios is it is asynchronous feature means it can do jobs asynchronously . In simple words, jobs are holding in the background and your application can load in front end. Which makes your application faster
